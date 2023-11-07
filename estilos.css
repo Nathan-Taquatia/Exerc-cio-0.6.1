@@ -4,9 +4,14 @@ tr:nth-child(1) {
     border: none;
   }
   
+  a {
+  text-decoration: none;
+}
+
   td, th {
     padding: 10px;
     text-align: start;
+    text-decoration: none;
   }
   
   table {
@@ -15,6 +20,7 @@ tr:nth-child(1) {
   
   tr:nth-child(odd):not(:first-child) {
     background-color: #cccfcd;
+    
   }
 
   .twitter
@@ -39,4 +45,4 @@ tr:nth-child(1) {
     border-radius: 100px;
   }
 
-  }
+  
